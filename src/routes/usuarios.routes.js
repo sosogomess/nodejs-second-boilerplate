@@ -2,7 +2,7 @@ import { json, Router } from "express";
 
 const usuariosRoutes = Router();
 
-let usuario = [];
+let usuarios = [];
 
 usuariosRoutes.get("/", (req, res) => {
     return res.status(200).json({
